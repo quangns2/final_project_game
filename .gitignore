@@ -1,0 +1,20 @@
+# Bỏ qua các thư mục build và cache của Unreal Engine
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Bỏ qua các file cấu hình của Visual Studio / Rider (nếu có)
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.xcworkspace
+*.idea/
+
+# Bỏ qua file rác của hệ điều hành
+.DS_Store
+Thumbs.db
+Content/MaleLocomotionSet/SourceFiles.zip
