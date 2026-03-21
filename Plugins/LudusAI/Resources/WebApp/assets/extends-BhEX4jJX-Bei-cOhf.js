@@ -1,1 +1,0 @@
-function e(r,t){if(r==null)return{};var a={};for(var n in r)if({}.hasOwnProperty.call(r,n)){if(t.indexOf(n)!==-1)continue;a[n]=r[n]}return a}function i(){return i=Object.assign?Object.assign.bind():function(r){for(var t=1;t<arguments.length;t++){var a=arguments[t];for(var n in a)({}).hasOwnProperty.call(a,n)&&(r[n]=a[n])}return r},i.apply(null,arguments)}export{i as a,e as i};
