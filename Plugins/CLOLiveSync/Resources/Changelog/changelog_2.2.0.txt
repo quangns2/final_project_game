@@ -1,0 +1,15 @@
+- Added support for Unreal Engine 5.7.
+
+- Added support for Puckering.
+
+- Added options: Play Region (uses CLO/MD Start/End Frames) and Entire Region (uses the full animation).
+
+- Added an option: Bake Joint Animation Frames on FPS Mismatch—resolving FPS discrepancies (e.g., loading a 30 FPS CLO animation into the 60 FPS Animation Editor) by baking joint animation data for intermediate, empty frames, ensuring the avatar animation sent via LiveSync to Unreal Engine is always identical to the source.)
+
+- Added an option: Flip Green Channel—flipping green channel for all normal maps of garments via CLO/MD LiveSync Mode.
+
+- Updated the Save feature to automatically generate a Level Sequence asset when saving garments and/or avatars with animation.
+
+- Updated the Save feature to include the CLO/MD source project filename in the names of created assets (e.g., Static Mesh, Geometry Cache, Material Instance).
+
+- Fixed an issue where names for saved Static Mesh and Geometry Cache assets became 'RenderMesh'.

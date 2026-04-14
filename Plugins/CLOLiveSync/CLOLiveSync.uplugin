@@ -1,0 +1,91 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.2.1",
+	"FriendlyName": "CLO/Marvelous Designer LiveSync",
+	"Description": "Adds support for direct connection between CLO & Marvelous Designer (MD) and Unreal Editor",
+	"Category": "Cloth",
+	"CreatedBy": "CLO Virtual Fashion Inc.",
+	"CreatedByURL": "https://www.clovirtualfashion.com/",
+	"DocsURL": "https://connect-hc.zendesk.com/hc/en-us/categories/44704952678809-LiveSync",
+	"MarketplaceURL": "",
+	"SupportURL": "unreal@clo3d.com",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "CloBlueprintXmlParser",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "CloLiveSyncCore",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "CloLiveSyncEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "USDImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "USDCore",
+			"Enabled": true
+		},
+		{
+			"Name": "HairStrands",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosCloth",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosClothAsset",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosClothAssetEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "Dataflow",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryCache",
+			"Enabled": true
+		},
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "SkeletalMerging",
+			"Enabled": true
+		}
+	]
+}

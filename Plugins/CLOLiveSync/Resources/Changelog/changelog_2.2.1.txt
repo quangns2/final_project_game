@@ -1,0 +1,1 @@
+- Fixed an issue where LiveSync updates would fail when the Windows username contained non-English characters (e.g., Spanish, Korean, Japanese, Chinese,...).
